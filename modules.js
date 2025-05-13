@@ -1,0 +1,12 @@
+var http = require('http');
+var https = require('https');
+var url = require('url');
+var fs = require('fs');
+var path = require('path');
+var net = require('net');
+var dns = require('dns');
+var os = require('os');
+var nodemailer = require('nodemailer');
+var formidable = require('formidable');
+var events = require('events');
+var eventEmitter = new events.EventEmitter();
